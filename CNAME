@@ -1,3 +1,9 @@
 >cd [path/to/blogroot]
 >touch CNAME
 >vim CNAME
+www.twistonidea.com
+>git status
+>git add CNAME
+>git commit -m "add CNAME file"
+>git push origin master
+>git status
