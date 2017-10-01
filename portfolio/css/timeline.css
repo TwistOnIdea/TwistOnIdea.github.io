@@ -25,15 +25,16 @@ body, html {
 }
 
 @font-face {
-	font-family: 'huxico';
-	src:url('../fonts/huxico.eot');
-	src:url('../fonts/huxico.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/huxico.woff') format('woff'),
-		url('../fonts/huxico.ttf') format('truetype'),
-		url('../fonts/huxico.svg#huxico') format('svg');
-	font-weight: normal;
-	font-style: normal;
-} /* Made with http://icomoon.io/ */
+  font-family: 'twistico';
+  src:  url('fonts/twistico.eot');
+  src:  url('fonts/twistico.eot#iefix') format('embedded-opentype'),
+    url('fonts/twistico.ttf') format('truetype'),
+    url('fonts/twistico.woff') format('woff'),
+    url('fonts/twistico.svg#twistico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .cbp_tmtimeline {
 	padding: 0;
@@ -99,7 +100,7 @@ body, html {
 .cbp_tmtimeline > li .cbp_tmicon {
 	width: 40px;
 	height: 40px;
-	font-family: 'huxico';
+	font-family: 'twistico' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -108,6 +109,7 @@ body, html {
 	font-size: 1.4em;
 	line-height: 40px;
 	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 	position: absolute;
 	color: #fff;
 	background: #46a4da;
@@ -119,29 +121,29 @@ body, html {
 	margin: 0 0 0 -25px;
 }
 
-.cbp_tmicon-phone:before {
-	content: "\e004";
-	font-family: 'huxico';
+.cbp_tmicon-keyboard:before {
+  content: "\e001";
 }
-
-.cbp_tmicon-screen:before {
-	content: "\e005";
-	font-family: 'huxico';
+.cbp_tmicon-display:before {
+  content: "\e002";
 }
-
-.cbp_tmicon-html:before {
-	content: "\e001";
-	font-family: 'huxico';
+.cbp_tmicon-mobile:before {
+  content: "\e003";
 }
-
-.cbp_tmicon-video:before {
-	content: "\e002";
-	font-family: 'huxico';
+.cbp_tmicon-onedrive:before {
+  content: "\e004";
 }
-
-.cbp_tmicon-font:before {
-	content: "\e003";
-	font-family: 'huxico';
+.cbp_tmicon-github:before {
+  content: "\e005";
+}
+.cbp_tmicon-appleinc:before {
+  content: "\e006";
+}
+.cbp_tmicon-windows8:before {
+  content: "\e007";
+}
+.cbp_tmicon-play:before {
+  content: "\e008";
 }
 
 /** Venders Logo **/
