@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "关于@font-face将"图标"嵌入到网页"
+title:      "关于@font-face将图标嵌入到网页"
 subtitle:   "Insert the icons into the webpage"
 date:       2017-10-1 12:00:00
 author:     "Twist"
@@ -16,7 +16,7 @@ tags:
 >由@**font-face**引发的一系列有趣的探索，源于搭建博客时对[Portfolio](https://twistonidea.github.io/portfolio/)分类下的卡片块下的标识icon的兴趣。  
 
 
-![1](/img/in-post/post-css-fontface/1.png)
+![1](/img/in-post/post-css-fontface/icon.png)
 
 ##  何为@font-face？
 
@@ -128,6 +128,7 @@ Import Icons按钮只能*choose SVG images, SVG fonts or JSONs exported by IcoMo
 
 通过每个项目栏目左上角的下拉菜单按钮，对项目下的大量图标进行整理，挑选，比较人性化的操作的是
 > Duplicate Selectiion： Here将选中的图标以复制的形式移到所有图标的头部
+
 > Move Selection Here：将选中的图标移到所有图标的头部
 以便对选完的图标有个条理的概览。
 
